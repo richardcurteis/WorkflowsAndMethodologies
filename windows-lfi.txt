@@ -1,0 +1,51 @@
+C:/Windows/Panther/Unattend/Unattended.xml
+C:/Windows/Panther/Unattended.xml
+C:/Windows/Panther/Unattend.txt
+C:/Unattemd.xml
+C:/Autounattend.xml
+C:/Windows/system32/sysprep
+C:/inetpub/wwwroot/
+C:/inetpub/wwwroot/web.config
+C:/inetpub/logs/logfiles/
+C:/documents and settings/administrator/desktop/desktop.ini
+C:/documents and settings/administrator/ntuser.dat
+C:/documents and settings/administrator/ntuser.ini
+C:/users/administrator/desktop/desktop.ini
+C:/users/administrator/ntuser.dat
+C:/users/administrator/ntuser.ini
+C:/windows/windowsupdate.log
+C:/xampp/apache/conf/httpd.conf
+C:/xampp/security/webdav.htpasswd
+C:/xampp/apache/logs/access.log
+C:/xampp/apache/logs/error.log
+C:/xampp/tomcat/conf/tomcat-users.xml
+C:/xampp/tomcat/conf/web.xml
+C:/xampp/webalizer/webalizer.conf
+C:/xampp/webdav/webdav.txt
+C:/xampp/apache/bin/php.ini
+C:/xampp/apache/conf/httpd.conf
+c:\apache\logs\access.log
+c:\apache\logs\error.log
+c:\AppServ\MySQL
+C:/boot.ini
+C:\boot.ini
+/C:/inetpub/ftproot/
+C:/inetpub/wwwroot/global.asa
+C:\inetpub\wwwroot\global.asa
+c:\inetpub\wwwroot\index.asp
+/C:\Program Files\
+c:\Program Files\Apache Group\Apache\logs\access.log
+c:\Program Files\Apache Group\Apache\logs\error.log
+/.cshrc
+c:\System32\Inetsrv\metabase.xml
+c:WINDOWS/system32/
+d:\AppServ\MySQL
+database.asp
+database.js
+database.php
+data.php
+dbase.php a
+db.php
+../../../../../../../dev
+/D:\Program Files\
+d:\System32\Inetsrv\metabase.xml
