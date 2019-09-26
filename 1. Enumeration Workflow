@@ -19,13 +19,17 @@
 4. If there are web servers:
 	4.1 Check them out in the browser
 		4.1.1 - Burp running and clean browser
-	4.2 - Start Gobuster
+	4.2 Start Gobuster
 		4.2.1 - Is it Apache? CGI discovery from Seclists
 		4.2.2 - Dirbuster directory checks
-	4.3 gather information:
+		4.2.3 - Are any results access denied for folder? gobust contents of these.
+	4.3 Gather information:
 		4.3.1 - cewl
 		4.3.2 - gather usernames ???????
 	4.4 SSL Certificate
 		4.4.1 Any subdomains? Where else is this certificate valid?
 			4.4.1.1 - Add to hosts file
 		4.4.2 Any email addresses
+	4.5 Any versions available? What is the site running?
+		4.5.1 - Fire specific vulnerability scanner, eg, wpscan
+	4.6 Start Nikto
