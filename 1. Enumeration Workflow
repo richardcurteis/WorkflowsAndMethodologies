@@ -1,0 +1,31 @@
+--- Information Gathering ---
+1. Banner grab with curl
+	1.1 Any language versions?
+	1.2 Server versions?
+
+--- Enumeration ---
+
+1. Nmap quick SYN scan with -sV and top 1000
+	1.1 Scan all ports with -sV
+	1.2 - Scan all results with aggressive scan
+	
+2. Nmap UDP scan, no flags
+	2.1 - Deep scan on resulting ports
+	
+3. Scan each port with relevant nmap scripts
+	3.1 It's ok to be tedious.
+	3.2 Test ports by connecting with Netcat? Are banners different from nmap results?
+
+4. If there are web servers:
+	4.1 Check them out in the browser
+		4.1.1 - Burp running and clean browser
+	4.2 - Start Gobuster
+		4.2.1 - Is it Apache? CGI discovery from Seclists
+		4.2.2 - Dirbuster directory checks
+	4.3 gather information:
+		4.3.1 - cewl
+		4.3.2 - gather usernames ???????
+	4.4 SSL Certificate
+		4.4.1 Any subdomains? Where else is this certificate valid?
+			4.4.1.1 - Add to hosts file
+		4.4.2 Any email addresses
