@@ -6,7 +6,8 @@
 3.1 wesng
 3.2 What architecture?
 4. Run enum script
-4.1 - Batch or PS
+4.1 - Upload accesschk and 
+4.2 - Batch or PS scripts
 5. Identify  IP and name of internal DC
 5.1 - Map DC drive to local:
 5.1.1 net use z: \\$dc\sysvol
