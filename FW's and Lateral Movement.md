@@ -50,6 +50,8 @@
 
 #### Netsh ####
 
+NOTE: http://woshub.com/port-forwarding-in-windows/
+
 Port Forward
 
 ```netsh interface portproxy add v4tov4 listenaddress=localaddress listenport=localport connectaddress=destaddress connectport=destport```
