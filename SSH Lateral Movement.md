@@ -40,8 +40,24 @@
 
 ```socks4 127.0.0.1 8080```
 
+### Firewall rules ###
+
 #### IPTables ####
 
 *NOTE: https://www.andreafortuna.org/2019/05/08/iptables-a-simple-cheatsheet/*
 
 ```iptables -t nat -A PREROUTING -p tcp -d 1.2.3.4 --dport 422 -j DNAT --to 192.168.0.100:22```
+
+#### Netsh ####
+
+Port Forward
+
+```netsh interface portproxy add v4tov4 listenaddress=localaddress listenport=localport connectaddress=destaddress connectport=destport```
+
+Check rules
+
+```netsh advfirewall show allprofiles```
+
+Create Rule
+
+```netsh advfirewall firewall add rule name="Open Remote Desktop" protocol=TCP dir=in localport=3389 action=allow```
