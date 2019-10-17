@@ -1,5 +1,3 @@
-### <--- Lateral Movement ---> ###
-
 #### SSH Hijack: Abusing SSH Agents to intercept the "SSO Like Token"  ####
 
 **NOTE: https://xorl.wordpress.com/2018/02/04/ssh-hijacking-for-lateral-movement/**
