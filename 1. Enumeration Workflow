@@ -38,3 +38,7 @@
 # Obstacles
 -- HTTP Authentication --
 medusa -h $url -u $user -P $passlist -M http -n $port -m DIR:/$dir -T 30
+
+--- Pop Up Auths --- 
+hydra -C $comma:wordlist http-get://url:port/path 
+
