@@ -27,14 +27,15 @@
 		4.3.1 - Is it Apache? CGI discovery from Seclists
 		4.3.2 - Dirbuster directory checks
 		4.3.3 - Are any results access denied for folder? gobust contents of these.
-	4.4 Gather information:
-		4.4.1 - cewl $url -m 6 $outfile 2> /dev/null
+	4.4 Enumerate sub-domains
+	4.4.1 gobuster dns -d google.com -w ~/wordlists/subdomains.txt
+	4.5 Gather information:
+		4.5.1 - cewl $url -m 6 $outfile 2> /dev/null
 			4.4.1.1 - john --wordlist $outfile --rules --stdout > mutated.txt
-		4.4.2 - gather usernames ???????
-	4.5 Any versions available? What is the site running?
+		4.5.2 - gather usernames ???????
+	4.6 Any versions available? What is the site running?
 		4.5.1 - Fire specific vulnerability scanner, eg, wpscan
-	4.6 Start vuln scanner
-	4.7 Enumerate sub-domains
+	4.7 Start vuln scanner
 
 # Obstacles
 -- HTTP Authentication --
