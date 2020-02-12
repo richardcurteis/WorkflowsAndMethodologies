@@ -5,10 +5,11 @@
 
 --- Enumeration ---
 
-0 Open tools
+0. Open tools
 	0.1 whois
 	0.2 nslookup
 	0.3 whois.domaintools.com
+	0.4 whatweb
  
 
 1. Nmap quick SYN scan with -sV and top 1000
