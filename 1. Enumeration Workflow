@@ -33,7 +33,8 @@
 		4.4.2 - gather usernames ???????
 	4.5 Any versions available? What is the site running?
 		4.5.1 - Fire specific vulnerability scanner, eg, wpscan
-	4.6 Start Nikto
+	4.6 Start vuln scanner
+	4.7 Enumerate sub-domains
 
 # Obstacles
 -- HTTP Authentication --
