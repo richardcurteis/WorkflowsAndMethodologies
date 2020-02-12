@@ -28,7 +28,8 @@
 		4.3.2 - Dirbuster directory checks
 		4.3.3 - Are any results access denied for folder? gobust contents of these.
 	4.4 Enumerate sub-domains
-	4.4.1 gobuster dns -d google.com -w ~/wordlists/subdomains.txt
+		4.4.1 gobuster dns -d google.com -w ~/wordlists/subdomains.txt
+		4.3.2 -i to show IP addresses
 	4.5 Gather information:
 		4.5.1 - cewl $url -m 6 $outfile 2> /dev/null
 			4.4.1.1 - john --wordlist $outfile --rules --stdout > mutated.txt
