@@ -14,7 +14,7 @@
 	
 3. Scan each port with relevant nmap scripts
 	3.1 It's ok to be tedious.
-	3.2 Test ports by connecting with Netcat? Are banners different from nmap results?
+	3.2 Test ports by connecting with Netcat? Are banners different from nmap results? Is something being obfuscated?
 
 4. If there are web servers:
 	4.1 Check them out in the browser
