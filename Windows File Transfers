@@ -1,5 +1,4 @@
-# Credit: Busra Demir
---------------------------------------
+------------------------------------
 TFTP
 # Windows XP and Win 2003 contain tftp client. Windows 7 do not by default 
 # tfpt clients are usually non-interactive, so they could work through an obtained shell 
